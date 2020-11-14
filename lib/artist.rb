@@ -46,6 +46,10 @@ def self.find_or_create_by_name(artist_name)
     found_artist
   else
     new_artist = self.new(artist_name)
+<<<<<<< HEAD
+=======
+    new_artist.save
+>>>>>>> 80316f0bde39e71c83d4e56d652b93bf85bea96d
     new_artist
   end
 end

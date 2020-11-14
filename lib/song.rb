@@ -22,6 +22,10 @@ class Song
     artist = file_name.split(" - ")[0]
     new_song = self.new(song)
     new_song.artist_name = artist
+<<<<<<< HEAD
+=======
+    @@all << new_song
+>>>>>>> 80316f0bde39e71c83d4e56d652b93bf85bea96d
     new_song
   end
 end
